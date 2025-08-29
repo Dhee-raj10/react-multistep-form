@@ -28,7 +28,7 @@ const App: React.FC = () => {
             .required("This field is required")
             .matches(
               /^.+@(gmail\.com|organizationname\.ac\.in)$/,
-              "Email must be @gmail.com or @organizationname.ac.in"
+              "Email must be in @gmail.com form"
             );
         } else if (q.type === "checkbox") {
           acc[q.id] = yup.array().min(1, "Select at least one option");
