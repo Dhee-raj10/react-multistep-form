@@ -72,7 +72,7 @@ All in a clean, responsive interface.
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**
 
