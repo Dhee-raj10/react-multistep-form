@@ -58,16 +58,23 @@ All in a clean, responsive interface.
     ├── postcss.config.js
     └── tsconfig.json
 
-## Sample Output
+## Sample Submission Output
 
-> **Final Submission Object:**  
+When the form is submitted, the collected answers will be structured as a JSON object like this:
+
+For Example:
 ```json
 {
-  "name": "Alugubelli Dheeraj Reddy",
-  "email": "dheerajreddyalugubelli@gmail.com",
-  "skills": ["React", "TypeScript", "Tailwind CSS"],
-  "experience": "2 years"
+  "name": "Dheeraj Reddy",
+  "email": "dheerajreddy@gmail.com",
+  "gender": "Male",
+  "experience ": "Advanced",
+  "hobbies": ["Reading,Sports"],
+  "languages": ["Java,Python,C++"],
+  "skills": ["JavaScript,React.js,Node.js,MongoDB"],
+  "tools": ["VS Code,Postman,git"]
 }
+
 ```
 
 ---
