@@ -1,0 +1,28 @@
+.screen-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+.screen-enter-active {
+  opacity: 1;
+  transform: translateX(0%);
+  transition: opacity 300ms, transform 300ms;
+}
+.screen-exit {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.screen-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* Optional mobile slide from bottom */
+@media (max-width: 640px) {
+  .screen-enter {
+    transform: translateY(100%);
+  }
+  .screen-exit-active {
+    transform: translateY(-100%);
+  }
+}
